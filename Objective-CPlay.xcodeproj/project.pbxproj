@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33648B791FE8ED6C00229B09 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 33648B781FE8ED6C00229B09 /* Car.m */; };
 		3380E4A01FE7665F001A37C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3380E49F1FE7665F001A37C1 /* AppDelegate.m */; };
 		3380E4A31FE7665F001A37C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3380E4A21FE7665F001A37C1 /* ViewController.m */; };
 		3380E4A61FE7665F001A37C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3380E4A41FE7665F001A37C1 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33648B771FE8ED6C00229B09 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		33648B781FE8ED6C00229B09 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		3380E49B1FE7665F001A37C1 /* Objective-CPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-CPlay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3380E49E1FE7665F001A37C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3380E49F1FE7665F001A37C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				3380E4A91FE7665F001A37C1 /* LaunchScreen.storyboard */,
 				3380E4AC1FE76660001A37C1 /* Info.plist */,
 				3380E4AD1FE76660001A37C1 /* main.m */,
+				33648B771FE8ED6C00229B09 /* Car.h */,
+				33648B781FE8ED6C00229B09 /* Car.m */,
 			);
 			path = "Objective-CPlay";
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			files = (
 				3380E4A31FE7665F001A37C1 /* ViewController.m in Sources */,
 				3380E4AE1FE76660001A37C1 /* main.m in Sources */,
+				33648B791FE8ED6C00229B09 /* Car.m in Sources */,
 				3380E4A01FE7665F001A37C1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
